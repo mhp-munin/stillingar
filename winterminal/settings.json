@@ -88,9 +88,9 @@
                 "guid": "{d2ee6c59-3822-4f92-8255-96f8939cf577}",
                 "hidden": false,
                 "name": "Conda",
-                "commandline": "cmd.exe /K C:\\Users\\mhp\\AppData\\Local\\Continuum\\anaconda3\\Scripts\\activate.bat",
+                "commandline": "cmd.exe /K %USERPROFILE%\\AppData\\Local\\Continuum\\anaconda3\\Scripts\\activate.bat",
                 "startingDirectory": "C:\\Forritan",
-                "icon": "C:\\Users\\mhp\\AppData\\Local\\Continuum\\anaconda3\\pkgs\\conda-4.9.2-py37haa95532_0\\Lib\\site-packages\\conda\\shell\\conda_icon.ico",
+                "icon": "%USERPROFILE%\\AppData\\Local\\Continuum\\anaconda3\\pkgs\\conda-4.9.2-py37haa95532_0\\Lib\\site-packages\\conda\\shell\\conda_icon.ico",
                 "fontFace": "Consolas",
                 "fontSize": 12
             }
