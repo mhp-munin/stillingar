@@ -112,7 +112,11 @@
                 "commandline": "ssh munin@192.168.163.7",
                 "guid": "{fb35c733-e843-4527-8751-1e208ebcb788}",
                 "hidden": false,
+<<<<<<< HEAD
                 "name": "SSH srv7"
+=======
+                "name": "SSH srv6"
+>>>>>>> new-item
             }
         ]
     },
