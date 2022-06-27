@@ -85,9 +85,22 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
+                "guid": "{20ab1323-5bd3-4ee2-9866-42ae84871c09}",
+                "hidden": false,
+                "name": "Conda PowerShell",
+                "startingDirectory": "C:\\Forritan",
+                "commandline": "powershell.exe -ExecutionPolicy ByPass -NoExit -Command '& %USERPROFILE%\\AppData\\Local\\Continuum\\anaconda3\\shell\\condabin\\conda-hook.ps1 ; conda activate %USERPROFILE%\\AppData\\Local\\Continuum\\anaconda3' ",
+                "icon": "%USERPROFILE%\\AppData\\Local\\Continuum\\anaconda3\\pkgs\\conda-4.9.2-py37haa95532_0\\Lib\\site-packages\\conda\\shell\\conda_icon.ico",
+                "fontFace": "Consolas",
+                "fontSize": 12,
+                "colorScheme": "Campbell",
+                "acrylicOpacity": 0.6,
+                "useAcrylic": true
+            },
+            {
                 "guid": "{d2ee6c59-3822-4f92-8255-96f8939cf577}",
                 "hidden": false,
-                "name": "Conda",
+                "name": "Conda Cmd",
                 "commandline": "cmd.exe /K %USERPROFILE%\\AppData\\Local\\Continuum\\anaconda3\\Scripts\\activate.bat",
                 "startingDirectory": "C:\\Forritan",
                 "icon": "%USERPROFILE%\\AppData\\Local\\Continuum\\anaconda3\\pkgs\\conda-4.9.2-py37haa95532_0\\Lib\\site-packages\\conda\\shell\\conda_icon.ico",
