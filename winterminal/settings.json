@@ -37,6 +37,7 @@
         "defaults": 
         {
             // Put settings here that you want to apply to all profiles.
+
             "font": 
             {
                 "face": "MesloLGM NF",
@@ -47,7 +48,6 @@
         [
             {
                 "closeOnExit": "graceful",
-                // "colorScheme": "Campbell",
                 "colorScheme": "Gruvbox Dark",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "bar",
