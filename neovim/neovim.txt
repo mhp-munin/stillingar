@@ -1,0 +1,5 @@
+Useful information about neovim I pick up along the way.
+
+Config files are here:
+~/.config/nvim/
+
