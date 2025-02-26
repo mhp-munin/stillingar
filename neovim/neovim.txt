@@ -1,5 +1,8 @@
 Useful information about neovim I pick up along the way.
 
-Config files are here:
+Config files on Windows are here:
+~/AppData/Local/nvim/
+
+Config files on Linux are here:
 ~/.config/nvim/
 
