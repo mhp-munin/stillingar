@@ -20,6 +20,9 @@ return config
 
 ### Setting the default shell ###
 
+Make sure the Powershell Core is installed.
+
+config.default_prog = { "pwsh.exe", "-NoLogo" }
 
 
 ## Configuration guides ##
