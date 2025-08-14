@@ -1,4 +1,14 @@
-# Wezterm #
+# Wezterm
+
+## Keyboard Commands
+
+| Command     | Key Combo            |
+| ----------- | -------------------- |
+| Add new tab | <CTRL> <SHIFT> <TAB> |
+
+---
+
+## Installation
 
 Installed via choco
 
@@ -6,9 +16,11 @@ Installed via choco
 $ choco install wezterm -y
 ```
 
-### Simple configuration ###
+## Configuration
 
-Create a file in the home directory called *.wezterm.lua*.
+### Simple configuration
+
+Create a file in the home directory called _.wezterm.lua_.
 
 ```lua
 local wezterm = require("wezterm")
@@ -18,9 +30,9 @@ local config = wezterm.config_builder()
 return config
 ```
 
-Additional configuration must be added before *return config*.
+Additional configuration must be added before _return config_.
 
-### Setting the default shell ###
+### Setting the default shell
 
 Make sure the Powershell Core is installed.
 
@@ -28,19 +40,19 @@ Make sure the Powershell Core is installed.
 config.default_prog = { "pwsh.exe", "-NoLogo" }
 ```
 
-### Remove the title bar ###
+### Remove the title bar
 
 ```lua
 config.window_decorations = "RESIZE"
 ```
 
-### Transparency ###
+### Transparency
 
 ```lua
-config.window_background_opacity = 0.75
+config.window_background_opacity = 0.8
 ```
 
-## Configuration guides ##
+## Configuration guides
 
 https://gilbertsanchez.com/posts/terminals-shells-and-prompts/
 https://github.com/HeyItsGilbert/dotfiles/tree/main/dot_config/wezterm
