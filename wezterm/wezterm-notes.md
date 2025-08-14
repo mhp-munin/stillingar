@@ -2,11 +2,9 @@
 
 ## Keyboard Commands
 
-| Command     | Key Combo            |
-| ----------- | -------------------- |
-| Add new tab | <CTRL> <SHIFT> <TAB> |
-
----
+| Command     | Key Combo                  |
+| ----------- | -------------------------- |
+| Add new tab | `<CTRL>` `<SHIFT>` `<TAB>` |
 
 ## Installation
 
