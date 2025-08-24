@@ -14,6 +14,18 @@ Installed via choco
 $ choco install wezterm -y
 ```
 
+Install Starship
+
+```terminal
+$ choco install starship
+```
+
+Add the following line to the end of the Powershell profile. Find it by running $PROFILE.
+
+```Powershell
+Invoke-Expression (&starship init powershell)
+```
+
 ## Configuration
 
 ### Simple configuration

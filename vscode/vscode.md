@@ -22,8 +22,8 @@ Config files
 
 | Command          | Key Combo                  | Note   |
 | ---------------- | -------------------------- | ------ |
-| Toggle sidebar | `<space>` `e` ||
-| Show all editors | `<space>` `,` ||
+| Toggle sidebar | `<space>` + `e` ||
+| Show all editors | `<space>` + `,` ||
 
 ### Coding ###
 
