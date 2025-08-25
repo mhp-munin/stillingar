@@ -3,7 +3,13 @@
 Install with elevated Powershell prompt:
 
 ```powershell
-choco install starship
+PS> choco install starship
+```
+
+Add this line to the end of the Powershell profile (find it with $PROFILE):
+
+```powershell
+Invoke-Expression (&starship init powershell)
 ```
 
 Download a theme, I used tokyo-night preset from https://starship.rs/presets/tokyo-night.

@@ -51,5 +51,9 @@ These key strokes apply when input focus is in the file tree.
 | Move lines down | `<shift>` `j` | In Visual mode |
 | Move lines up | `<shift>` `k` | In Visual mode |
 | Show hover window | `<shift>` `k` | Only in Normal mode |
+| Show code actions | `space` `c` `a` | |
+| Rename method/function| `space` `c` `r` | |
+| Go to symbol | `space` `c` `s` | |
+| Close active editor | `space` `b` `d` | |
 
 

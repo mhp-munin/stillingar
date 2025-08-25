@@ -65,4 +65,5 @@ config.window_background_opacity = 0.8
 ## Configuration guides
 
 https://gilbertsanchez.com/posts/terminals-shells-and-prompts/
+
 https://github.com/HeyItsGilbert/dotfiles/tree/main/dot_config/wezterm
