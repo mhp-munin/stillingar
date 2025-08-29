@@ -10,9 +10,7 @@
 
 ## Keybindings ##
 
-A good video about setting custom keybindings, mimics Neovim.
-
-https://www.youtube.com/watch?v=JRnwt7oT1ZE
+A good video about setting custom keybindings, mimics Neovim: [link](https://www.youtube.com/watch?v=JRnwt7oT1ZE)
 
 Config files
 
